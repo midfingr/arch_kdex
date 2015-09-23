@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Add/Remove Software
+Comment=Add or remove software installed on the system
+Icon=system-software-install
+Exec=pamac-manager
+NoDisplay=true
+Categories=GNOME;GTK;System;
+StartupNotify=true
+Terminal=false

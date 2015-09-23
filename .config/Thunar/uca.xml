@@ -1,0 +1,32 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1442984728831932-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>text-x-script</icon>
+	<name>Ed_it as Root</name>
+	<unique-id>1443051374491956-1</unique-id>
+	<command>sudo leafpad %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>application-certificate-symbolic</icon>
+	<name>Open as Admin</name>
+	<unique-id>1443051453510774-2</unique-id>
+	<command>sudo thunar %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>

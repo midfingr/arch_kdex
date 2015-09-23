@@ -1,0 +1,14 @@
+[Added Associations]
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+text/plain=leafpad.desktop;
+application/xml=leafpad.desktop;firefox.desktop;
+text/x-log=leafpad.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/x-alpm-package=pamac-install.desktop;
+application/x-compressed-tar=engrampa.desktop;
+application/x-shellscript=leafpad.desktop;
+
+[Default Applications]
+application/xml=leafpad.desktop
+application/x-compressed-tar=engrampa.desktop
