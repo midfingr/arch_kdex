@@ -7,7 +7,7 @@ sudo systemctl start haveged
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Syy
-sudo pacman -S xfce4 leafpad mate-accountsdialog polkit-gnome gnome-keyring gnome-disk-utility ntfs-3g dosfstools kdemultimedia-kmix firefox ncdu kdebase-workspace appmenu-qt gvfs lightdm lightdm-gtk-greeter gtk-engines xorg-xprop appmenu-qt pulseaudio pulseaudio-alsa pavucontrol thunar-archive-plugin xfce4-notifyd ristretto p7zip zip unzip unrar xfce4-clipman-plugin speedtest-cli mlocate gstreamer0.10-good-plugins networkmanager network-manager-applet xfce4-whiskermenu-plugin youtube-dl xdg-user-dirs-gtk synapse
+sudo pacman -S xfce4 leafpad mate-accountsdialog polkit-gnome gnome-keyring gnome-disk-utility ntfs-3g dosfstools kdemultimedia-kmix firefox ncdu kdebase-workspace appmenu-qt gvfs lightdm lightdm-gtk-greeter gtk-engines xorg-xprop appmenu-qt pulseaudio pulseaudio-alsa pavucontrol thunar-archive-plugin xfce4-notifyd ristretto p7zip zip unzip unrar xfce4-clipman-plugin speedtest-cli mlocate gstreamer0.10-good-plugins networkmanager network-manager-applet xfce4-whiskermenu-plugin youtube-dl xdg-user-dirs-gtk synapse xscreensaver
 sudo updatedb
 sudo systemctl enable lightdm
 sudo systemctl enable NetworkManager
@@ -21,9 +21,11 @@ rm -r ~/.cache/*
 cp -r arch_kdex/.config ~/.config
 cp -r arch_kdex/.local ~/.local
 cp -r arch_kdex/.kde4 ~/.kde4
-cp -r arch_kdex.mozilla/ ~/.mozilla/
+cp -r arch_kdex/mozilla/ ~/.mozilla/
 mv ~/.bashrc ~/.bashrc.back
 cp arch_kdex/.bashrc ~/.bashrc
-cpr arch_kdex/.gtkrc-2.0 ~/.gtkrc-2.0
+cp arch_kdex/.gtkrc-2.0 ~/.gtkrc-2.0
+sudo pacman -Rns xfce4-appfinder --noconfirm
+sudo pacman -Rns xfwm4-themes --noconfirm
 chmod +x arch_kdex/aur_ins
 arch_kdex/aur_ins
