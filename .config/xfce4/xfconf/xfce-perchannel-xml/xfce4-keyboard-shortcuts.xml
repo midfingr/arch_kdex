@@ -36,7 +36,7 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal"/>
       <property name="&lt;Alt&gt;h" type="string" value="thunar"/>
       <property name="&lt;Alt&gt;l" type="string" value="xfce4-session-logout"/>
-      <property name="grave" type="string" value="xfce4-popup-whiskermenu"/>
+      <property name="Super_L" type="string" value="xfce4-popup-whiskermenu"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
