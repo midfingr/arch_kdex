@@ -15,7 +15,7 @@ UnredirectFullscreen=false
 XRenderSmoothScale=false
 
 [Desktops]
-Number=3
+Number=4
 Rows=2
 
 [Effect-BoxSwitch]
@@ -30,6 +30,11 @@ BorderActivateSphere=9
 [Effect-DesktopGrid]
 BorderActivate=1
 
+[Effect-FlipSwitch]
+TabBox=true
+TabBoxAlternative=false
+WindowTitle=false
+
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=7
@@ -37,6 +42,12 @@ BorderActivateClass=9
 
 [Effect-Zoom]
 InitialZoom=1
+
+[Effect-kwin4_effect_translucency]
+Decoration=86
+DropdownMenus=83
+IndividualMenuConfig=true
+PopupMenus=85
 
 [ElectricBorders]
 Bottom=None
