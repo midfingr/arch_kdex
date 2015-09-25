@@ -155,5 +155,5 @@ Window to Screen 6=none,none,Window to Screen 6
 Window to Screen 7=none,none,Window to Screen 7
 _k_friendly_name=KWin
 view_actual_size=Meta+0,Meta+0,Actual Size
-view_zoom_in=Meta+=,Meta+=,Zoom In
-view_zoom_out=Meta+-,Meta+-,Zoom Out
+view_zoom_in=Alt+N,Meta+=,Zoom In
+view_zoom_out=Alt+B,Meta+-,Zoom Out
